@@ -1,7 +1,6 @@
 require 'fizzbuzz'
 
 describe 'fizzbuzz' do
-
   it 'returns "Please input number" when given anything other than an integer' do
     expect(fizzbuzz("hello")).to eq 'Please input number'
   end 
